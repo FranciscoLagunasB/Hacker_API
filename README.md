@@ -50,7 +50,6 @@ GET http://localhost:5000/api/hackernews/beststories?n=10
 ```
 Respuesta esperada:
 
-```
 [
   {
     "title": "A uBlock Origin update was rejected from the Chrome Web Store",
@@ -70,7 +69,7 @@ Respuesta esperada:
   },
   ...
 ]
-```
+
 
 ### Notas Adicionales
 La aplicación está configurada para cacheo de los IDs de historias por 5 minutos para mejorar el rendimiento y reducir el número de solicitudes a la API de Hacker News.
